@@ -14,17 +14,9 @@ cd [atrie]
 conda env create -f environment.yml
 ```
 
-### Basic Usage
-
-
 ### Reproducing Paper Results
 ```bash
 bash src/bash_scripts/run.sh
-```
-
-## 📂 Repository Structure
-```
-
 ```
 
 ## 🤝 Citation
