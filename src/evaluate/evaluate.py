@@ -1,3 +1,4 @@
+# 自动评价（F1-score & Consistency Score）
 import os
 import shutil
 import configparser

@@ -1,3 +1,4 @@
+# 判断未见过的案件中是否适用模糊概念
 import os
 import json
 import configparser
