@@ -1,7 +1,7 @@
 # ATRIE: Automating Legal Concept Interpretation with LLMs
 
 [![arXiv](https://img.shields.io/badge/arXiv-2501.01743-b31b1b.svg)](https://arxiv.org/abs/2501.01743)
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 This repository contains the official implementation of the paper **"Automating Legal Concept Interpretation with LLMs: Retrieval, Generation, and Evaluation"**.
 
