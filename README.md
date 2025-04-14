@@ -9,8 +9,8 @@ This repository contains the official implementation of the paper **"Automating 
 
 ### Installation
 ```bash
-git clone [https://github.com/lkc233/ATRIE.git]
-cd [atrie]
+git clone https://github.com/lkc233/ATRIE.git
+cd ATRIE
 conda env create -f environment.yml
 ```
 
