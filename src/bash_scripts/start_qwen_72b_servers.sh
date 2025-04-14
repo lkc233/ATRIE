@@ -1,0 +1,2 @@
+bash src/bash_scripts/vllm_Qwen72B_server_7280.sh
+bash src/bash_scripts/vllm_Qwen72B_server_7279.sh

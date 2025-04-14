@@ -1,0 +1,33 @@
+api_key:
+  openai:
+    key: sk-proj-**
+    base_url: https://api.openai.com/v1
+  claude:
+    key: sk-***
+    base_url: https://api.gptsapi.net
+  gemini:
+    key: apikey***
+    base_url: https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/call-vertex-using-openai-library?hl=zh-cn#generativeaionvertexai_gemini_chat_completions_streaming-python_vertex_ai_sdk
+  qwen:
+    key: sk-***
+    base_url: https://dashscope.aliyuncs.com/compatible-mode/v1
+  local_qwen:
+    key: EMPTY
+    base_url: "http://localhost:7280/v1"
+  local_qwen2:
+    key: EMPTY
+    base_url: "http://localhost:7279/v1"
+  local_qwen3:
+    key: EMPTY
+    base_url: "http://localhost:7278/v1"
+  local_qwen4:
+    key: EMPTY
+    base_url: "http://localhost:7277/v1"
+  local_glm:
+    key: EMPTY
+    base_url: "http://localhost:7281/v1"
+
+proxy:
+  http: http://127.0.0.1:10809
+  https: http://127.0.0.1:10809
+

@@ -1,0 +1,4 @@
+bash src/bash_scripts/vllm_Qwen14B_server_7277.sh
+bash src/bash_scripts/vllm_Qwen14B_server_7278.sh
+bash src/bash_scripts/vllm_Qwen14B_server_7279.sh
+bash src/bash_scripts/vllm_Qwen14B_server_7280.sh
