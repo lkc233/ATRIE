@@ -1,27 +1,31 @@
 # ATRIE: Automating Legal Concept Interpretation with LLMs
 
-[![arXiv](https://img.shields.io/badge/arXiv-2501.01743-b31b1b.svg)](https://arxiv.org/abs/2501.01743)
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[](https://2025.aclweb.org/) [](https://arxiv.org/abs/2501.01743) [](https://www.gnu.org/licenses/gpl-3.0)
 
-This repository contains the official implementation of the paper **"Automating Legal Concept Interpretation with LLMs: Retrieval, Generation, and Evaluation"**.
+This repository contains the official implementation of the paper "**Automating Legal Concept Interpretation with LLMs: Retrieval, Generation, and Evaluation**", accepted to the main conference of ACL 2025.
 
-## 🚀 Quick Start
+**We will soon release our Dataset!**
 
-### Installation
+🚀 **Quick Start**
+
+**Installation**
+
 ```bash
 git clone https://github.com/lkc233/ATRIE.git
 cd ATRIE
 conda env create -f environment.yml
 ```
 
-### Reproducing Paper Results
+**Reproducing Paper Results**
+
 ```bash
 bash src/bash_scripts/run.sh
 ```
 
-## 🤝 Citation
+🤝 **Citation**
 
 If you use this code or find our work helpful, please cite our paper:
+
 ```bibtex
 @misc{luo2025automatinglegalconceptinterpretation,
       title={Automating Legal Concept Interpretation with LLMs: Retrieval, Generation, and Evaluation}, 
