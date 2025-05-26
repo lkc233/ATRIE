@@ -1,6 +1,8 @@
 # ATRIE: Automating Legal Concept Interpretation with LLMs
 
-[](https://2025.aclweb.org/) [](https://arxiv.org/abs/2501.01743) [](https://www.gnu.org/licenses/gpl-3.0)
+[![ACL 2025](https://img.shields.io/badge/ACL%202025-Main%20Conference-blue)](https://2025.aclweb.org/)
+[![arXiv](https://img.shields.io/badge/arXiv-2501.01743-b31b1b.svg)](https://arxiv.org/abs/2501.01743)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 This repository contains the official implementation of the paper "**Automating Legal Concept Interpretation with LLMs: Retrieval, Generation, and Evaluation**", accepted to the main conference of ACL 2025.
 
