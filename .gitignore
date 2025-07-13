@@ -152,3 +152,6 @@ Desktop.ini
 logs/
 data/docs/
 results/
+
+data/
+data_hf/
