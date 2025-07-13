@@ -29,6 +29,29 @@ conda env create -f environment.yml
 bash src/bash_scripts/run.sh
 ```
 
+## 📂 Code Structure
+
+- **`src/bash_scripts`**: Contains shell scripts to run experiments.
+  - `run.sh`: The main script to reproduce the results in the paper. 
+  - `start_qwen_*_servers.sh` / `stop_qwen_*_servers.sh`: Scripts to start and stop the Qwen model servers.
+  - `vllm_Qwen*.sh`: Scripts for running specific vLLM servers.
+- **`src/configs`**: Configuration files for the llms.
+- **`src/data_preparation`**: Code for data preparation.
+  - `data_split.py`: Splits the data into training and test sets.
+  - `mongodb_data_filter.py`: Code for the step 1 of our Interpreter. (You may need a mongodb server of case database running.)
+  - `llm_data_filter.py`: Using LLMs to filter the relevant cases. (Step 2 of our Interpreter.)
+  
+- **`src/evaluate`**: Script for evaluating the model's performance.
+  - `evaluate.py`: The main script for evaluation.
+- **`src/generate_interpretation`**: Scripts for generating interpretations from the models.
+  - `generate_interpretation.py`: Generates interpretations for legal concepts.
+  - `extract_reason.py`: Extracts reasons from court views (Step 2 of our Interpreter).
+- **`src/judgement_pred`**: Script for predicting judgments.
+  - `judgement_pred.py`: Code for performing the LCE task.
+- **`src/my_scripts`**: Utility scripts.
+  - `utils.py`: Utility functions.
+  - `chat.py`: A script for interactive chat with the llms.
+
 🤝 **Citation**
 
 If you use this code or find our work helpful, please cite our paper:
