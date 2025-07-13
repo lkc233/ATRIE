@@ -9,7 +9,7 @@ This repository contains the official implementation of the paper "**Automating 
 
 ## 📖 Dataset
 
-Our dataset, **ATRIE**, has been released and is now available on Hugging Face.
+Our Legal Concept Entailment dataset has been released and is now available on Hugging Face.
 
 You can access it here: 👉 [**KcLuo/ATRIE**](https://huggingface.co/datasets/KcLuo/ATRIE)
 
